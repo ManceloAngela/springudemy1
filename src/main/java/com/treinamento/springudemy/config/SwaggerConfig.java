@@ -26,6 +26,7 @@ public class SwaggerConfig{
   private static final String API_TITLE = "Integrator Kenoby/Senior - Recruitment MDS Insure";
   private static final String BASE_PAKAGE = "com.treinamento.springudemy";
 
+  
   @Bean
   public Docket api(){
     return new Docket(DocumentationType.SWAGGER_2)
