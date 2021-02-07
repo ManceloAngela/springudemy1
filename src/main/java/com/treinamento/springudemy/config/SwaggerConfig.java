@@ -3,7 +3,6 @@ package com.treinamento.springudemy.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
@@ -19,7 +18,7 @@ public class SwaggerConfig{
   
 
   private static final String CONTACT_EMAIL = "marcelo.andrade.triade@gmail.com";
-  private static final String CONTACT_GITHUB = "https://github.com/ManceloAngela/springudemy/";
+  private static final String CONTACT_GITHUB = "https://github.com/ManceloAngela/springudemy1/";
   private static final String CONTACT_NAME = "Marcelo Andrade";
   private static final String API_VERSION = "1.0.0";
   private static final String API_DESCRIPTION = "Itegrator Kenoby API Professinal";
