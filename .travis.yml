@@ -9,10 +9,10 @@ install:
 addons:
   sonarcloud:
     organization: "manceloangela"
-token:
-  secure: "cf44e9b46b27f18d8e18027179168f3daa1570a9"
-script:
-  - sonar-scanner
+    token:
+      secure: "cf44e9b46b27f18d8e18027179168f3daa1570a9"
+# script:
+#   - sonar-scanner
 # cache:
 #   directories:
 #     - $HOME/.m2
