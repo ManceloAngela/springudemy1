@@ -1,0 +1,526 @@
+[0m2021.02.07 02:01:36 INFO  Started: Metals version 0.9.10 in workspace 'D:\treinamento\springudemy' for client vscode 1.53.0.[0m
+[0m2021.02.07 02:01:40 INFO  time: initialize in 3.65s[0m
+[0m2021.02.07 02:01:41 WARN  Build server is not auto-connectable.[0m
+[0m2021.02.07 02:02:06 INFO  running 'C:\Java\jdk11\jdk-11.0.10\bin\java -Dfile.encoding=UTF-8 -Dmaven.multiModuleProjectDirectory=D:\treinamento\springudemy -Dmaven.home=C:\Users\marce\AppData\Local\Temp\metals18326352130257587162 -jar C:\Users\marce\AppData\Local\Temp\metals18326352130257587162\maven-wrapper.jar ch.epfl.scala:maven-bloop_2.12:1.4.6-21-464e4ec4:bloopInstall -DdownloadSources=true'[0m
+[0m2021.02.07 02:02:12 INFO  [INFO] Scanning for projects...[0m
+[0m2021.02.07 02:02:13 INFO  [WARNING] [0m
+[0m2021.02.07 02:02:13 INFO  [WARNING] Some problems were encountered while building the effective model for com.treinamento:springudemy:jar:0.0.1-SNAPSHOT[0m
+[0m2021.02.07 02:02:13 INFO  [WARNING] 'dependencies.dependency.scope' for org.springframework.boot:spring-boot-configuration-processor:jar must be one of [provided, compile, runtime, test, system] but is 'annotationProcessor'. @ line 54, column 11[0m
+[0m2021.02.07 02:02:13 INFO  [WARNING] [0m
+[0m2021.02.07 02:02:13 INFO  [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.[0m
+[0m2021.02.07 02:02:13 INFO  [WARNING] [0m
+[0m2021.02.07 02:02:13 INFO  [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.[0m
+[0m2021.02.07 02:02:13 INFO  [WARNING] [0m
+[0m2021.02.07 02:02:13 INFO  [INFO] [0m
+[0m2021.02.07 02:02:13 INFO  [INFO] --------------------< com.treinamento:springudemy >---------------------[0m
+[0m2021.02.07 02:02:13 INFO  [INFO] Building springudemy 0.0.1-SNAPSHOT[0m
+[0m2021.02.07 02:02:13 INFO  [INFO] --------------------------------[ jar ]---------------------------------[0m
+[0m2021.02.07 02:02:14 INFO  [INFO] [0m
+[0m2021.02.07 02:02:14 INFO  [INFO] --- maven-bloop_2.12:1.4.6-21-464e4ec4:bloopInstall (default-cli) @ springudemy ---[0m
+[0m2021.02.07 02:02:20 INFO  [INFO] Using empty launcher: no run setup for springudemy.[0m
+[0m2021.02.07 02:02:23 INFO  [INFO] Scanning for projects...[0m
+[0m2021.02.07 02:02:23 INFO  [WARNING] [0m
+[0m2021.02.07 02:02:23 INFO  [WARNING] Some problems were encountered while building the effective model for com.treinamento:springudemy:jar:0.0.1-SNAPSHOT[0m
+[0m2021.02.07 02:02:23 INFO  [WARNING] 'dependencies.dependency.scope' for org.springframework.boot:spring-boot-configuration-processor:jar must be one of [provided, compile, runtime, test, system] but is 'annotationProcessor'. @ line 54, column 11[0m
+[0m2021.02.07 02:02:23 INFO  [WARNING] [0m
+[0m2021.02.07 02:02:23 INFO  [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.[0m
+[0m2021.02.07 02:02:23 INFO  [WARNING] [0m
+[0m2021.02.07 02:02:23 INFO  [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.[0m
+[0m2021.02.07 02:02:23 INFO  [WARNING] [0m
+[0m2021.02.07 02:02:25 INFO  [INFO] [0m
+[0m2021.02.07 02:02:25 INFO  [INFO] --------------------< com.treinamento:springudemy >---------------------[0m
+[0m2021.02.07 02:02:25 INFO  [INFO] Building springudemy 0.0.1-SNAPSHOT[0m
+[0m2021.02.07 02:02:25 INFO  [INFO] --------------------------------[ jar ]---------------------------------[0m
+[0m2021.02.07 02:02:25 INFO  [INFO] [0m
+[0m2021.02.07 02:02:25 INFO  [INFO] --- maven-dependency-plugin:3.1.2:sources (default-cli) @ springudemy ---[0m
+[0m2021.02.07 02:02:33 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-freemarker/2.4.2/spring-boot-starter-freemarker-2.4.2-sources.jar[0m
+[0m2021.02.07 02:02:35 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-freemarker/2.4.2/spring-boot-starter-freemarker-2.4.2-sources.jar (4.7 kB at 4.3 kB/s)[0m
+[0m2021.02.07 02:02:35 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.30/freemarker-2.3.30-sources.jar[0m
+[0m2021.02.07 02:02:36 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.30/freemarker-2.3.30-sources.jar (1.3 MB at 1.2 MB/s)[0m
+[0m2021.02.07 02:02:36 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.3/spring-context-support-5.3.3-sources.jar[0m
+[0m2021.02.07 02:02:36 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.3/spring-context-support-5.3.3-sources.jar (171 kB at 523 kB/s)[0m
+[0m2021.02.07 02:02:36 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2-sources.jar[0m
+[0m2021.02.07 02:02:36 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2-sources.jar (41 kB at 131 kB/s)[0m
+[0m2021.02.07 02:02:36 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20-sources.jar[0m
+[0m2021.02.07 02:02:37 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20-sources.jar (29 kB at 85 kB/s)[0m
+[0m2021.02.07 02:02:37 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20-sources.jar[0m
+[0m2021.02.07 02:02:37 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20-sources.jar (68 kB at 215 kB/s)[0m
+[0m2021.02.07 02:02:37 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2-sources.jar[0m
+[0m2021.02.07 02:02:37 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2-sources.jar (43 kB at 144 kB/s)[0m
+[0m2021.02.07 02:02:37 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2-sources.jar[0m
+[0m2021.02.07 02:02:37 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2-sources.jar (87 kB at 284 kB/s)[0m
+[0m2021.02.07 02:02:37 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2-sources.jar[0m
+[0m2021.02.07 02:02:38 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2-sources.jar (51 kB at 169 kB/s)[0m
+[0m2021.02.07 02:02:38 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2-sources.jar[0m
+[0m2021.02.07 02:02:38 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2-sources.jar (64 kB at 212 kB/s)[0m
+[0m2021.02.07 02:02:38 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2-sources.jar[0m
+[0m2021.02.07 02:02:38 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2-sources.jar (102 kB at 335 kB/s)[0m
+[0m2021.02.07 02:02:38 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/20.0/guava-20.0-sources.jar[0m
+[0m2021.02.07 02:02:39 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/20.0/guava-20.0-sources.jar (1.5 MB at 2.7 MB/s)[0m
+[0m2021.02.07 02:02:39 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE-sources.jar[0m
+[0m2021.02.07 02:02:39 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE-sources.jar (20 kB at 68 kB/s)[0m
+[0m2021.02.07 02:02:39 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE-sources.jar[0m
+[0m2021.02.07 02:02:39 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE-sources.jar (4.7 kB at 16 kB/s)[0m
+[0m2021.02.07 02:02:39 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mapstruct/mapstruct/1.2.0.Final/mapstruct-1.2.0.Final-sources.jar[0m
+[0m2021.02.07 02:02:39 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mapstruct/mapstruct/1.2.0.Final/mapstruct-1.2.0.Final-sources.jar (46 kB at 150 kB/s)[0m
+[0m2021.02.07 02:02:39 INFO  [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2-sources.jar[0m
+[0m2021.02.07 02:02:40 INFO  [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2-sources.jar (793 B at 2.7 kB/s)[0m
+[0m2021.02.07 02:02:40 INFO  [INFO] Can't extract module name from logback-classic-1.2.3-sources.jar: Provider class ch.qos.logback.classic.servlet.LogbackServletContainerInitializer not in module[0m
+[0m2021.02.07 02:02:40 INFO  [INFO] Can't extract module name from log4j-to-slf4j-2.13.3-sources.jar: Provider class org.apache.logging.slf4j.SLF4JProvider not in module[0m
+[0m2021.02.07 02:02:40 INFO  [INFO] Can't extract module name from log4j-api-2.13.3-sources.jar: Provider class org.apache.logging.log4j.util.EnvironmentPropertySource not in module[0m
+[0m2021.02.07 02:02:43 INFO  [INFO] Can't extract module name from junit-jupiter-engine-5.7.0-sources.jar: Provider class org.junit.jupiter.engine.JupiterTestEngine not in module[0m
+[0m2021.02.07 02:02:43 INFO  [INFO] Can't extract module name from byte-buddy-1.10.19-sources.jar: byte.buddy: Invalid module name: 'byte' is not a Java identifier[0m
+[0m2021.02.07 02:02:43 INFO  [INFO] Can't extract module name from byte-buddy-agent-1.10.19-sources.jar: byte.buddy.agent: Invalid module name: 'byte' is not a Java identifier[0m
+[0m2021.02.07 02:02:43 INFO  [INFO] Can't extract module name from spring-core-5.3.3-sources.jar: Provider class org.springframework.core.ReactiveAdapterRegistry$SpringCoreBlockHoundIntegration not in module[0m
+[0m2021.02.07 02:02:43 INFO  [INFO] Can't extract module name from spring-jcl-5.3.3-sources.jar: Provider class org.apache.commons.logging.LogFactoryService not in module[0m
+[0m2021.02.07 02:02:43 INFO  [INFO] Can't extract module name from spring-boot-configuration-processor-2.4.2-sources.jar: Provider class org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor not in module[0m
+[0m2021.02.07 02:02:43 INFO  [INFO] Can't extract module name from jackson-databind-2.11.4-sources.jar: Provider class com.fasterxml.jackson.databind.ObjectMapper not in module[0m
+[0m2021.02.07 02:02:43 INFO  [INFO] Can't extract module name from jackson-core-2.11.4-sources.jar: Provider class com.fasterxml.jackson.core.JsonFactory not in module[0m
+[0m2021.02.07 02:02:43 INFO  [INFO] Can't extract module name from jackson-datatype-jdk8-2.11.4-sources.jar: Provider class com.fasterxml.jackson.datatype.jdk8.Jdk8Module not in module[0m
+[0m2021.02.07 02:02:43 INFO  [INFO] Can't extract module name from jackson-datatype-jsr310-2.11.4-sources.jar: Provider class com.fasterxml.jackson.datatype.jsr310.JavaTimeModule not in module[0m
+[0m2021.02.07 02:02:43 INFO  [INFO] Can't extract module name from jackson-module-parameter-names-2.11.4-sources.jar: Provider class com.fasterxml.jackson.module.paramnames.ParameterNamesModule not in module[0m
+[0m2021.02.07 02:02:43 INFO  [INFO] Can't extract module name from spring-web-5.3.3-sources.jar: Provider class org.springframework.web.SpringServletContainerInitializer not in module[0m
+[0m2021.02.07 02:02:43 INFO  [INFO] Can't extract module name from h2-1.4.200-sources.jar: Provider class org.h2.Driver not in module[0m
+[0m2021.02.07 02:02:44 INFO  [INFO] [0m
+[0m2021.02.07 02:02:44 INFO  [INFO] The following files have been resolved:[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-starter-freemarker:jar:sources:2.4.2 -- module spring.boot.starter.freemarker [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-starter:jar:sources:2.4.2 -- module spring.boot.starter [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-starter-logging:jar:sources:2.4.2 -- module spring.boot.starter.logging [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    ch.qos.logback:logback-classic:jar:sources:1.2.3[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    ch.qos.logback:logback-core:jar:sources:1.2.3 -- module logback.core (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.apache.logging.log4j:log4j-to-slf4j:jar:sources:2.13.3[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.apache.logging.log4j:log4j-api:jar:sources:2.13.3[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.slf4j:jul-to-slf4j:jar:sources:1.7.30 -- module jul.to.slf4j (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    jakarta.annotation:jakarta.annotation-api:jar:sources:1.3.5 -- module jakarta.annotation.api (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.yaml:snakeyaml:jar:sources:1.27 -- module snakeyaml (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.freemarker:freemarker:jar:sources:2.3.30 -- module freemarker (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-context-support:jar:sources:5.3.3 -- module spring.context.support (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-beans:jar:sources:5.3.3 -- module spring.beans (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-context:jar:sources:5.3.3 -- module spring.context (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-devtools:jar:sources:2.4.2 -- module spring.boot.devtools [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot:jar:sources:2.4.2 -- module spring.boot [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-autoconfigure:jar:sources:2.4.2 -- module spring.boot.autoconfigure [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.springfox:springfox-swagger2:jar:sources:2.9.2 -- module springfox.swagger2 (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.swagger:swagger-annotations:jar:sources:1.5.20 -- module swagger.annotations (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.swagger:swagger-models:jar:sources:1.5.20 -- module swagger.models (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.11.4 -- module jackson.annotations (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.springfox:springfox-spi:jar:sources:2.9.2 -- module springfox.spi (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.springfox:springfox-core:jar:sources:2.9.2 -- module springfox.core (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.springfox:springfox-schema:jar:sources:2.9.2 -- module springfox.schema (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.springfox:springfox-swagger-common:jar:sources:2.9.2 -- module springfox.swagger.common (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.springfox:springfox-spring-web:jar:sources:2.9.2 -- module springfox.spring.web (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.google.guava:guava:jar:sources:20.0 -- module guava (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.fasterxml:classmate:jar:sources:1.5.1 -- module classmate (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.slf4j:slf4j-api:jar:sources:1.7.30 -- module slf4j.api (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.plugin:spring-plugin-core:jar:sources:1.2.0.RELEASE -- module spring.plugin.core (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-aop:jar:sources:5.3.3 -- module spring.aop (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.plugin:spring-plugin-metadata:jar:sources:1.2.0.RELEASE -- module spring.plugin.metadata (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.mapstruct:mapstruct:jar:sources:1.2.0.Final -- module mapstruct (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.springfox:springfox-swagger-ui:jar:sources:2.9.2 -- module springfox.swagger.ui (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.projectlombok:lombok:jar:sources:1.18.16 -- module lombok (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-starter-test:jar:sources:2.4.2 -- module spring.boot.starter.test [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-test:jar:sources:2.4.2 -- module spring.boot.test [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-test-autoconfigure:jar:sources:2.4.2 -- module spring.boot.test.autoconfigure [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.jayway.jsonpath:json-path:jar:sources:2.4.0 -- module json.path (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    net.minidev:json-smart:jar:sources:2.3 -- module json.smart (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    net.minidev:accessors-smart:jar:sources:1.2 -- module accessors.smart (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.ow2.asm:asm:jar:sources:5.0.4 -- module asm (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    jakarta.xml.bind:jakarta.xml.bind-api:jar:sources:2.3.3 -- module jakarta.xml.bind.api (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    jakarta.activation:jakarta.activation-api:jar:sources:1.2.2 -- module jakarta.activation.api (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.assertj:assertj-core:jar:sources:3.18.1 -- module assertj.core (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.hamcrest:hamcrest:jar:sources:2.2 -- module hamcrest (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.junit.jupiter:junit-jupiter:jar:sources:5.7.0 -- module junit.jupiter (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.junit.jupiter:junit-jupiter-api:jar:sources:5.7.0 -- module junit.jupiter.api (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.apiguardian:apiguardian-api:jar:sources:1.1.0 -- module apiguardian.api (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.opentest4j:opentest4j:jar:sources:1.2.0 -- module opentest4j (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.junit.platform:junit-platform-commons:jar:sources:1.7.0 -- module junit.platform.commons (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.junit.jupiter:junit-jupiter-params:jar:sources:5.7.0 -- module junit.jupiter.params (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.junit.jupiter:junit-jupiter-engine:jar:sources:5.7.0[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.junit.platform:junit-platform-engine:jar:sources:1.7.0 -- module junit.platform.engine (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.mockito:mockito-core:jar:sources:3.6.28 -- module mockito.core (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    net.bytebuddy:byte-buddy:jar:sources:1.10.19[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    net.bytebuddy:byte-buddy-agent:jar:sources:1.10.19[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.objenesis:objenesis:jar:sources:3.1 -- module objenesis (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.mockito:mockito-junit-jupiter:jar:sources:3.6.28 -- module mockito.junit.jupiter (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.skyscreamer:jsonassert:jar:sources:1.5.0 -- module jsonassert (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.vaadin.external.google:android-json:jar:sources:0.0.20131108.vaadin1 -- module android.json (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-core:jar:sources:5.3.3[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-jcl:jar:sources:5.3.3[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-test:jar:sources:5.3.3 -- module spring.test (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.xmlunit:xmlunit-core:jar:sources:2.7.0 -- module xmlunit.core (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-configuration-processor:jar:sources:2.4.2[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-starter-web:jar:sources:2.4.2 -- module spring.boot.starter.web [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-starter-json:jar:sources:2.4.2 -- module spring.boot.starter.json [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.fasterxml.jackson.core:jackson-databind:jar:sources:2.11.4[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.fasterxml.jackson.core:jackson-core:jar:sources:2.11.4[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:sources:2.11.4[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:sources:2.11.4[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.fasterxml.jackson.module:jackson-module-parameter-names:jar:sources:2.11.4[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-starter-tomcat:jar:sources:2.4.2 -- module spring.boot.starter.tomcat [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.apache.tomcat.embed:tomcat-embed-core:jar:sources:9.0.41 -- module tomcat.embed.core (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.glassfish:jakarta.el:jar:sources:3.0.3 -- module jakarta.el (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.apache.tomcat.embed:tomcat-embed-websocket:jar:sources:9.0.41 -- module tomcat.embed.websocket (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-web:jar:sources:5.3.3[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-webmvc:jar:sources:5.3.3 -- module spring.webmvc (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-expression:jar:sources:5.3.3 -- module spring.expression (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-starter-actuator:jar:sources:2.4.2 -- module spring.boot.starter.actuator [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-actuator-autoconfigure:jar:sources:2.4.2 -- module spring.boot.actuator.autoconfigure [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-actuator:jar:sources:2.4.2 -- module spring.boot.actuator [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.micrometer:micrometer-core:jar:sources:1.6.3 -- module micrometer.core (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.hdrhistogram:HdrHistogram:jar:sources:2.1.12 -- module HdrHistogram (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.latencyutils:LatencyUtils:jar:sources:2.0.3 -- module LatencyUtils (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.h2database:h2:jar:sources:1.4.200[0m
+[0m2021.02.07 02:02:44 INFO  [INFO] [0m
+[0m2021.02.07 02:02:44 INFO  [INFO] The following files have NOT been resolved:[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-starter-freemarker:jar:2.4.2:compile -- module spring.boot.starter.freemarker [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-starter:jar:2.4.2:compile -- module spring.boot.starter [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-starter-logging:jar:2.4.2:compile -- module spring.boot.starter.logging [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    ch.qos.logback:logback-classic:jar:1.2.3:compile -- module logback.classic (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    ch.qos.logback:logback-core:jar:1.2.3:compile -- module logback.core (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile -- module org.apache.logging.slf4j [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.apache.logging.log4j:log4j-api:jar:2.13.3:compile -- module org.apache.logging.log4j[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.slf4j:jul-to-slf4j:jar:1.7.30:compile -- module jul.to.slf4j (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile -- module java.annotation [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.yaml:snakeyaml:jar:1.27:compile -- module org.yaml.snakeyaml [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.freemarker:freemarker:jar:2.3.30:compile -- module freemarker (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-context-support:jar:5.3.3:compile -- module spring.context.support [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-beans:jar:5.3.3:compile -- module spring.beans [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-context:jar:5.3.3:compile -- module spring.context [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-devtools:jar:2.4.2:runtime (optional)  -- module spring.boot.devtools [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot:jar:2.4.2:compile -- module spring.boot [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-autoconfigure:jar:2.4.2:compile -- module spring.boot.autoconfigure [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.springfox:springfox-swagger2:jar:2.9.2:compile -- module springfox.swagger2 (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.swagger:swagger-annotations:jar:1.5.20:compile -- module swagger.annotations (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.swagger:swagger-models:jar:1.5.20:compile -- module swagger.models (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.11.4:compile -- module com.fasterxml.jackson.annotation[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.springfox:springfox-spi:jar:2.9.2:compile -- module springfox.spi (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.springfox:springfox-core:jar:2.9.2:compile -- module springfox.core (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.springfox:springfox-schema:jar:2.9.2:compile -- module springfox.schema (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.springfox:springfox-swagger-common:jar:2.9.2:compile -- module springfox.swagger.common (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.springfox:springfox-spring-web:jar:2.9.2:compile -- module springfox.spring.web (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.google.guava:guava:jar:20.0:compile -- module guava (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.fasterxml:classmate:jar:1.5.1:compile -- module com.fasterxml.classmate[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.slf4j:slf4j-api:jar:1.7.30:compile -- module org.slf4j [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:compile -- module spring.plugin.core (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-aop:jar:5.3.3:compile -- module spring.aop [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE:compile -- module spring.plugin.metadata (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.mapstruct:mapstruct:jar:1.2.0.Final:compile -- module org.mapstruct [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.springfox:springfox-swagger-ui:jar:2.9.2:compile -- module springfox.swagger.ui (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.projectlombok:lombok:jar:1.18.16:compile (optional)  -- module lombok[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-starter-test:jar:2.4.2:test -- module spring.boot.starter.test [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-test:jar:2.4.2:test -- module spring.boot.test [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-test-autoconfigure:jar:2.4.2:test -- module spring.boot.test.autoconfigure [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.jayway.jsonpath:json-path:jar:2.4.0:test -- module json.path (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    net.minidev:json-smart:jar:2.3:test -- module json.smart (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    net.minidev:accessors-smart:jar:1.2:test -- module accessors.smart (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.ow2.asm:asm:jar:5.0.4:test -- module asm (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:test -- module java.xml.bind[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    jakarta.activation:jakarta.activation-api:jar:1.2.2:test -- module jakarta.activation[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.assertj:assertj-core:jar:3.18.1:test -- module org.assertj.core[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.hamcrest:hamcrest:jar:2.2:test -- module org.hamcrest [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.junit.jupiter:junit-jupiter:jar:5.7.0:test -- module org.junit.jupiter[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.junit.jupiter:junit-jupiter-api:jar:5.7.0:test -- module org.junit.jupiter.api[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.apiguardian:apiguardian-api:jar:1.1.0:test -- module org.apiguardian.api[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.opentest4j:opentest4j:jar:1.2.0:test -- module org.opentest4j[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.junit.platform:junit-platform-commons:jar:1.7.0:test -- module org.junit.platform.commons[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.junit.jupiter:junit-jupiter-params:jar:5.7.0:test -- module org.junit.jupiter.params[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.junit.jupiter:junit-jupiter-engine:jar:5.7.0:test -- module org.junit.jupiter.engine[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.junit.platform:junit-platform-engine:jar:1.7.0:test -- module org.junit.platform.engine[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.mockito:mockito-core:jar:3.6.28:test -- module org.mockito [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    net.bytebuddy:byte-buddy:jar:1.10.19:compile -- module net.bytebuddy[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    net.bytebuddy:byte-buddy-agent:jar:1.10.19:test -- module net.bytebuddy.agent[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.objenesis:objenesis:jar:3.1:test -- module org.objenesis [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.mockito:mockito-junit-jupiter:jar:3.6.28:test -- module mockito.junit.jupiter (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.skyscreamer:jsonassert:jar:1.5.0:test -- module jsonassert (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test -- module android.json (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-core:jar:5.3.3:compile -- module spring.core [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-jcl:jar:5.3.3:compile -- module spring.jcl [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-test:jar:5.3.3:test -- module spring.test [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.xmlunit:xmlunit-core:jar:2.7.0:test -- module org.xmlunit [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-configuration-processor:jar:2.4.2:annotationProcessor -- module spring.boot.configuration.processor [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-starter-web:jar:2.4.2:compile -- module spring.boot.starter.web [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-starter-json:jar:2.4.2:compile -- module spring.boot.starter.json [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.11.4:compile -- module com.fasterxml.jackson.databind[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.11.4:compile -- module com.fasterxml.jackson.core[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.4:compile -- module com.fasterxml.jackson.datatype.jdk8[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.4:compile -- module com.fasterxml.jackson.datatype.jsr310[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.4:compile -- module com.fasterxml.jackson.module.paramnames[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-starter-tomcat:jar:2.4.2:compile -- module spring.boot.starter.tomcat [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.41:compile -- module org.apache.tomcat.embed.core[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.glassfish:jakarta.el:jar:3.0.3:compile -- module jakarta.el (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.41:compile -- module org.apache.tomcat.embed.websocket[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-web:jar:5.3.3:compile -- module spring.web [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-webmvc:jar:5.3.3:compile -- module spring.webmvc [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework:spring-expression:jar:5.3.3:compile -- module spring.expression [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-starter-actuator:jar:2.4.2:compile -- module spring.boot.starter.actuator [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.4.2:compile -- module spring.boot.actuator.autoconfigure [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.springframework.boot:spring-boot-actuator:jar:2.4.2:compile -- module spring.boot.actuator [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    io.micrometer:micrometer-core:jar:1.6.3:compile -- module micrometer.core [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.hdrhistogram:HdrHistogram:jar:2.1.12:compile -- module HdrHistogram (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    org.latencyutils:LatencyUtils:jar:2.0.3:runtime -- module LatencyUtils (auto)[0m
+[0m2021.02.07 02:02:44 INFO  [INFO]    com.h2database:h2:jar:1.4.200:runtime -- module com.h2database [auto][0m
+[0m2021.02.07 02:02:44 INFO  [INFO] [0m
+[0m2021.02.07 02:02:44 INFO  [INFO] ------------------------------------------------------------------------[0m
+[0m2021.02.07 02:02:44 INFO  [INFO] BUILD SUCCESS[0m
+[0m2021.02.07 02:02:44 INFO  [INFO] ------------------------------------------------------------------------[0m
+[0m2021.02.07 02:02:44 INFO  [INFO] Total time: 21.390 s[0m
+[0m2021.02.07 02:02:44 INFO  [INFO] Finished at: 2021-02-07T02:02:44-03:00[0m
+[0m2021.02.07 02:02:44 INFO  [INFO] ------------------------------------------------------------------------[0m
+[0m2021.02.07 02:02:44 INFO  [WARNING] you don't define org.scala-lang:scala-library as a dependency of the project[0m
+[0m2021.02.07 02:02:44 INFO  [INFO] Generated .bloop\springudemy.json[0m
+[0m2021.02.07 02:02:46 INFO  [INFO] Scanning for projects...[0m
+[0m2021.02.07 02:02:46 INFO  [WARNING] [0m
+[0m2021.02.07 02:02:46 INFO  [WARNING] Some problems were encountered while building the effective model for com.treinamento:springudemy:jar:0.0.1-SNAPSHOT[0m
+[0m2021.02.07 02:02:46 INFO  [WARNING] 'dependencies.dependency.scope' for org.springframework.boot:spring-boot-configuration-processor:jar must be one of [provided, compile, runtime, test, system] but is 'annotationProcessor'. @ line 54, column 11[0m
+[0m2021.02.07 02:02:46 INFO  [WARNING] [0m
+[0m2021.02.07 02:02:46 INFO  [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.[0m
+[0m2021.02.07 02:02:46 INFO  [WARNING] [0m
+[0m2021.02.07 02:02:46 INFO  [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.[0m
+[0m2021.02.07 02:02:46 INFO  [WARNING] [0m
+[0m2021.02.07 02:02:48 INFO  [INFO] [0m
+[0m2021.02.07 02:02:48 INFO  [INFO] --------------------< com.treinamento:springudemy >---------------------[0m
+[0m2021.02.07 02:02:48 INFO  [INFO] Building springudemy 0.0.1-SNAPSHOT[0m
+[0m2021.02.07 02:02:48 INFO  [INFO] --------------------------------[ jar ]---------------------------------[0m
+[0m2021.02.07 02:02:48 INFO  [INFO] [0m
+[0m2021.02.07 02:02:48 INFO  [INFO] --- maven-dependency-plugin:3.1.2:sources (default-cli) @ springudemy ---[0m
+[0m2021.02.07 02:02:51 INFO  [INFO] Can't extract module name from logback-classic-1.2.3-sources.jar: Provider class ch.qos.logback.classic.servlet.LogbackServletContainerInitializer not in module[0m
+[0m2021.02.07 02:02:51 INFO  [INFO] Can't extract module name from log4j-to-slf4j-2.13.3-sources.jar: Provider class org.apache.logging.slf4j.SLF4JProvider not in module[0m
+[0m2021.02.07 02:02:51 INFO  [INFO] Can't extract module name from log4j-api-2.13.3-sources.jar: Provider class org.apache.logging.log4j.util.EnvironmentPropertySource not in module[0m
+[0m2021.02.07 02:02:51 INFO  [INFO] Can't extract module name from junit-jupiter-engine-5.7.0-sources.jar: Provider class org.junit.jupiter.engine.JupiterTestEngine not in module[0m
+[0m2021.02.07 02:02:51 INFO  [INFO] Can't extract module name from byte-buddy-1.10.19-sources.jar: byte.buddy: Invalid module name: 'byte' is not a Java identifier[0m
+[0m2021.02.07 02:02:51 INFO  [INFO] Can't extract module name from byte-buddy-agent-1.10.19-sources.jar: byte.buddy.agent: Invalid module name: 'byte' is not a Java identifier[0m
+[0m2021.02.07 02:02:51 INFO  [INFO] Can't extract module name from spring-core-5.3.3-sources.jar: Provider class org.springframework.core.ReactiveAdapterRegistry$SpringCoreBlockHoundIntegration not in module[0m
+[0m2021.02.07 02:02:51 INFO  [INFO] Can't extract module name from spring-jcl-5.3.3-sources.jar: Provider class org.apache.commons.logging.LogFactoryService not in module[0m
+[0m2021.02.07 02:02:51 INFO  [INFO] Can't extract module name from spring-boot-configuration-processor-2.4.2-sources.jar: Provider class org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor not in module[0m
+[0m2021.02.07 02:02:51 INFO  [INFO] Can't extract module name from jackson-databind-2.11.4-sources.jar: Provider class com.fasterxml.jackson.databind.ObjectMapper not in module[0m
+[0m2021.02.07 02:02:51 INFO  [INFO] Can't extract module name from jackson-core-2.11.4-sources.jar: Provider class com.fasterxml.jackson.core.JsonFactory not in module[0m
+[0m2021.02.07 02:02:51 INFO  [INFO] Can't extract module name from jackson-datatype-jdk8-2.11.4-sources.jar: Provider class com.fasterxml.jackson.datatype.jdk8.Jdk8Module not in module[0m
+[0m2021.02.07 02:02:51 INFO  [INFO] Can't extract module name from jackson-datatype-jsr310-2.11.4-sources.jar: Provider class com.fasterxml.jackson.datatype.jsr310.JavaTimeModule not in module[0m
+[0m2021.02.07 02:02:51 INFO  [INFO] Can't extract module name from jackson-module-parameter-names-2.11.4-sources.jar: Provider class com.fasterxml.jackson.module.paramnames.ParameterNamesModule not in module[0m
+[0m2021.02.07 02:02:51 INFO  [INFO] Can't extract module name from spring-web-5.3.3-sources.jar: Provider class org.springframework.web.SpringServletContainerInitializer not in module[0m
+[0m2021.02.07 02:02:51 INFO  [INFO] Can't extract module name from h2-1.4.200-sources.jar: Provider class org.h2.Driver not in module[0m
+[0m2021.02.07 02:02:51 INFO  [INFO] [0m
+[0m2021.02.07 02:02:51 INFO  [INFO] The following files have been resolved:[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.springframework.boot:spring-boot-starter-freemarker:jar:sources:2.4.2 -- module spring.boot.starter.freemarker [auto][0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.springframework.boot:spring-boot-starter:jar:sources:2.4.2 -- module spring.boot.starter [auto][0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.springframework.boot:spring-boot-starter-logging:jar:sources:2.4.2 -- module spring.boot.starter.logging [auto][0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    ch.qos.logback:logback-classic:jar:sources:1.2.3[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    ch.qos.logback:logback-core:jar:sources:1.2.3 -- module logback.core (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.apache.logging.log4j:log4j-to-slf4j:jar:sources:2.13.3[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.apache.logging.log4j:log4j-api:jar:sources:2.13.3[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.slf4j:jul-to-slf4j:jar:sources:1.7.30 -- module jul.to.slf4j (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    jakarta.annotation:jakarta.annotation-api:jar:sources:1.3.5 -- module jakarta.annotation.api (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.yaml:snakeyaml:jar:sources:1.27 -- module snakeyaml (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.freemarker:freemarker:jar:sources:2.3.30 -- module freemarker (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.springframework:spring-context-support:jar:sources:5.3.3 -- module spring.context.support (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.springframework:spring-beans:jar:sources:5.3.3 -- module spring.beans (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.springframework:spring-context:jar:sources:5.3.3 -- module spring.context (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.springframework.boot:spring-boot-devtools:jar:sources:2.4.2 -- module spring.boot.devtools [auto][0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.springframework.boot:spring-boot:jar:sources:2.4.2 -- module spring.boot [auto][0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.springframework.boot:spring-boot-autoconfigure:jar:sources:2.4.2 -- module spring.boot.autoconfigure [auto][0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    io.springfox:springfox-swagger2:jar:sources:2.9.2 -- module springfox.swagger2 (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    io.swagger:swagger-annotations:jar:sources:1.5.20 -- module swagger.annotations (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    io.swagger:swagger-models:jar:sources:1.5.20 -- module swagger.models (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.11.4 -- module jackson.annotations (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    io.springfox:springfox-spi:jar:sources:2.9.2 -- module springfox.spi (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    io.springfox:springfox-core:jar:sources:2.9.2 -- module springfox.core (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    io.springfox:springfox-schema:jar:sources:2.9.2 -- module springfox.schema (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    io.springfox:springfox-swagger-common:jar:sources:2.9.2 -- module springfox.swagger.common (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    io.springfox:springfox-spring-web:jar:sources:2.9.2 -- module springfox.spring.web (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    com.google.guava:guava:jar:sources:20.0 -- module guava (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    com.fasterxml:classmate:jar:sources:1.5.1 -- module classmate (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.slf4j:slf4j-api:jar:sources:1.7.30 -- module slf4j.api (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.springframework.plugin:spring-plugin-core:jar:sources:1.2.0.RELEASE -- module spring.plugin.core (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.springframework:spring-aop:jar:sources:5.3.3 -- module spring.aop (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.springframework.plugin:spring-plugin-metadata:jar:sources:1.2.0.RELEASE -- module spring.plugin.metadata (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.mapstruct:mapstruct:jar:sources:1.2.0.Final -- module mapstruct (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    io.springfox:springfox-swagger-ui:jar:sources:2.9.2 -- module springfox.swagger.ui (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.projectlombok:lombok:jar:sources:1.18.16 -- module lombok (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.springframework.boot:spring-boot-starter-test:jar:sources:2.4.2 -- module spring.boot.starter.test [auto][0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.springframework.boot:spring-boot-test:jar:sources:2.4.2 -- module spring.boot.test [auto][0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.springframework.boot:spring-boot-test-autoconfigure:jar:sources:2.4.2 -- module spring.boot.test.autoconfigure [auto][0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    com.jayway.jsonpath:json-path:jar:sources:2.4.0 -- module json.path (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    net.minidev:json-smart:jar:sources:2.3 -- module json.smart (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    net.minidev:accessors-smart:jar:sources:1.2 -- module accessors.smart (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.ow2.asm:asm:jar:sources:5.0.4 -- module asm (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    jakarta.xml.bind:jakarta.xml.bind-api:jar:sources:2.3.3 -- module jakarta.xml.bind.api (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    jakarta.activation:jakarta.activation-api:jar:sources:1.2.2 -- module jakarta.activation.api (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.assertj:assertj-core:jar:sources:3.18.1 -- module assertj.core (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.hamcrest:hamcrest:jar:sources:2.2 -- module hamcrest (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.junit.jupiter:junit-jupiter:jar:sources:5.7.0 -- module junit.jupiter (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.junit.jupiter:junit-jupiter-api:jar:sources:5.7.0 -- module junit.jupiter.api (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.apiguardian:apiguardian-api:jar:sources:1.1.0 -- module apiguardian.api (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.opentest4j:opentest4j:jar:sources:1.2.0 -- module opentest4j (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.junit.platform:junit-platform-commons:jar:sources:1.7.0 -- module junit.platform.commons (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.junit.jupiter:junit-jupiter-params:jar:sources:5.7.0 -- module junit.jupiter.params (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.junit.jupiter:junit-jupiter-engine:jar:sources:5.7.0[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.junit.platform:junit-platform-engine:jar:sources:1.7.0 -- module junit.platform.engine (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.mockito:mockito-core:jar:sources:3.6.28 -- module mockito.core (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    net.bytebuddy:byte-buddy:jar:sources:1.10.19[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    net.bytebuddy:byte-buddy-agent:jar:sources:1.10.19[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.objenesis:objenesis:jar:sources:3.1 -- module objenesis (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.mockito:mockito-junit-jupiter:jar:sources:3.6.28 -- module mockito.junit.jupiter (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.skyscreamer:jsonassert:jar:sources:1.5.0 -- module jsonassert (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    com.vaadin.external.google:android-json:jar:sources:0.0.20131108.vaadin1 -- module android.json (auto)[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.springframework:spring-core:jar:sources:5.3.3[0m
+[0m2021.02.07 02:02:51 INFO  [INFO]    org.springframework:spring-jcl:jar:sources:5.3.3[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework:spring-test:jar:sources:5.3.3 -- module spring.test (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.xmlunit:xmlunit-core:jar:sources:2.7.0 -- module xmlunit.core (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-configuration-processor:jar:sources:2.4.2[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-starter-web:jar:sources:2.4.2 -- module spring.boot.starter.web [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-starter-json:jar:sources:2.4.2 -- module spring.boot.starter.json [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    com.fasterxml.jackson.core:jackson-databind:jar:sources:2.11.4[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    com.fasterxml.jackson.core:jackson-core:jar:sources:2.11.4[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:sources:2.11.4[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:sources:2.11.4[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    com.fasterxml.jackson.module:jackson-module-parameter-names:jar:sources:2.11.4[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-starter-tomcat:jar:sources:2.4.2 -- module spring.boot.starter.tomcat [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.apache.tomcat.embed:tomcat-embed-core:jar:sources:9.0.41 -- module tomcat.embed.core (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.glassfish:jakarta.el:jar:sources:3.0.3 -- module jakarta.el (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.apache.tomcat.embed:tomcat-embed-websocket:jar:sources:9.0.41 -- module tomcat.embed.websocket (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework:spring-web:jar:sources:5.3.3[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework:spring-webmvc:jar:sources:5.3.3 -- module spring.webmvc (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework:spring-expression:jar:sources:5.3.3 -- module spring.expression (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-starter-actuator:jar:sources:2.4.2 -- module spring.boot.starter.actuator [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-actuator-autoconfigure:jar:sources:2.4.2 -- module spring.boot.actuator.autoconfigure [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-actuator:jar:sources:2.4.2 -- module spring.boot.actuator [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    io.micrometer:micrometer-core:jar:sources:1.6.3 -- module micrometer.core (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.hdrhistogram:HdrHistogram:jar:sources:2.1.12 -- module HdrHistogram (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.latencyutils:LatencyUtils:jar:sources:2.0.3 -- module LatencyUtils (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    com.h2database:h2:jar:sources:1.4.200[0m
+[0m2021.02.07 02:02:52 INFO  [INFO] [0m
+[0m2021.02.07 02:02:52 INFO  [INFO] The following files have NOT been resolved:[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-starter-freemarker:jar:2.4.2:compile -- module spring.boot.starter.freemarker [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-starter:jar:2.4.2:compile -- module spring.boot.starter [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-starter-logging:jar:2.4.2:compile -- module spring.boot.starter.logging [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    ch.qos.logback:logback-classic:jar:1.2.3:compile -- module logback.classic (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    ch.qos.logback:logback-core:jar:1.2.3:compile -- module logback.core (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile -- module org.apache.logging.slf4j [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.apache.logging.log4j:log4j-api:jar:2.13.3:compile -- module org.apache.logging.log4j[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.slf4j:jul-to-slf4j:jar:1.7.30:compile -- module jul.to.slf4j (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile -- module java.annotation [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.yaml:snakeyaml:jar:1.27:compile -- module org.yaml.snakeyaml [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.freemarker:freemarker:jar:2.3.30:compile -- module freemarker (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework:spring-context-support:jar:5.3.3:compile -- module spring.context.support [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework:spring-beans:jar:5.3.3:compile -- module spring.beans [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework:spring-context:jar:5.3.3:compile -- module spring.context [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-devtools:jar:2.4.2:runtime (optional)  -- module spring.boot.devtools [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot:jar:2.4.2:compile -- module spring.boot [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-autoconfigure:jar:2.4.2:compile -- module spring.boot.autoconfigure [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    io.springfox:springfox-swagger2:jar:2.9.2:compile -- module springfox.swagger2 (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    io.swagger:swagger-annotations:jar:1.5.20:compile -- module swagger.annotations (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    io.swagger:swagger-models:jar:1.5.20:compile -- module swagger.models (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.11.4:compile -- module com.fasterxml.jackson.annotation[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    io.springfox:springfox-spi:jar:2.9.2:compile -- module springfox.spi (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    io.springfox:springfox-core:jar:2.9.2:compile -- module springfox.core (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    io.springfox:springfox-schema:jar:2.9.2:compile -- module springfox.schema (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    io.springfox:springfox-swagger-common:jar:2.9.2:compile -- module springfox.swagger.common (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    io.springfox:springfox-spring-web:jar:2.9.2:compile -- module springfox.spring.web (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    com.google.guava:guava:jar:20.0:compile -- module guava (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    com.fasterxml:classmate:jar:1.5.1:compile -- module com.fasterxml.classmate[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.slf4j:slf4j-api:jar:1.7.30:compile -- module org.slf4j [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:compile -- module spring.plugin.core (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework:spring-aop:jar:5.3.3:compile -- module spring.aop [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE:compile -- module spring.plugin.metadata (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.mapstruct:mapstruct:jar:1.2.0.Final:compile -- module org.mapstruct [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    io.springfox:springfox-swagger-ui:jar:2.9.2:compile -- module springfox.swagger.ui (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.projectlombok:lombok:jar:1.18.16:compile (optional)  -- module lombok[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-starter-test:jar:2.4.2:test -- module spring.boot.starter.test [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-test:jar:2.4.2:test -- module spring.boot.test [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-test-autoconfigure:jar:2.4.2:test -- module spring.boot.test.autoconfigure [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    com.jayway.jsonpath:json-path:jar:2.4.0:test -- module json.path (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    net.minidev:json-smart:jar:2.3:test -- module json.smart (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    net.minidev:accessors-smart:jar:1.2:test -- module accessors.smart (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.ow2.asm:asm:jar:5.0.4:test -- module asm (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:test -- module java.xml.bind[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    jakarta.activation:jakarta.activation-api:jar:1.2.2:test -- module jakarta.activation[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.assertj:assertj-core:jar:3.18.1:test -- module org.assertj.core[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.hamcrest:hamcrest:jar:2.2:test -- module org.hamcrest [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.junit.jupiter:junit-jupiter:jar:5.7.0:test -- module org.junit.jupiter[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.junit.jupiter:junit-jupiter-api:jar:5.7.0:test -- module org.junit.jupiter.api[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.apiguardian:apiguardian-api:jar:1.1.0:test -- module org.apiguardian.api[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.opentest4j:opentest4j:jar:1.2.0:test -- module org.opentest4j[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.junit.platform:junit-platform-commons:jar:1.7.0:test -- module org.junit.platform.commons[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.junit.jupiter:junit-jupiter-params:jar:5.7.0:test -- module org.junit.jupiter.params[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.junit.jupiter:junit-jupiter-engine:jar:5.7.0:test -- module org.junit.jupiter.engine[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.junit.platform:junit-platform-engine:jar:1.7.0:test -- module org.junit.platform.engine[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.mockito:mockito-core:jar:3.6.28:test -- module org.mockito [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    net.bytebuddy:byte-buddy:jar:1.10.19:compile -- module net.bytebuddy[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    net.bytebuddy:byte-buddy-agent:jar:1.10.19:test -- module net.bytebuddy.agent[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.objenesis:objenesis:jar:3.1:test -- module org.objenesis [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.mockito:mockito-junit-jupiter:jar:3.6.28:test -- module mockito.junit.jupiter (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.skyscreamer:jsonassert:jar:1.5.0:test -- module jsonassert (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test -- module android.json (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework:spring-core:jar:5.3.3:compile -- module spring.core [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework:spring-jcl:jar:5.3.3:compile -- module spring.jcl [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework:spring-test:jar:5.3.3:test -- module spring.test [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.xmlunit:xmlunit-core:jar:2.7.0:test -- module org.xmlunit [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-configuration-processor:jar:2.4.2:annotationProcessor -- module spring.boot.configuration.processor [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-starter-web:jar:2.4.2:compile -- module spring.boot.starter.web [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-starter-json:jar:2.4.2:compile -- module spring.boot.starter.json [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.11.4:compile -- module com.fasterxml.jackson.databind[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.11.4:compile -- module com.fasterxml.jackson.core[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.4:compile -- module com.fasterxml.jackson.datatype.jdk8[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.4:compile -- module com.fasterxml.jackson.datatype.jsr310[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.4:compile -- module com.fasterxml.jackson.module.paramnames[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-starter-tomcat:jar:2.4.2:compile -- module spring.boot.starter.tomcat [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.41:compile -- module org.apache.tomcat.embed.core[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.glassfish:jakarta.el:jar:3.0.3:compile -- module jakarta.el (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.41:compile -- module org.apache.tomcat.embed.websocket[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework:spring-web:jar:5.3.3:compile -- module spring.web [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework:spring-webmvc:jar:5.3.3:compile -- module spring.webmvc [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework:spring-expression:jar:5.3.3:compile -- module spring.expression [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-starter-actuator:jar:2.4.2:compile -- module spring.boot.starter.actuator [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.4.2:compile -- module spring.boot.actuator.autoconfigure [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.springframework.boot:spring-boot-actuator:jar:2.4.2:compile -- module spring.boot.actuator [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    io.micrometer:micrometer-core:jar:1.6.3:compile -- module micrometer.core [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.hdrhistogram:HdrHistogram:jar:2.1.12:compile -- module HdrHistogram (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    org.latencyutils:LatencyUtils:jar:2.0.3:runtime -- module LatencyUtils (auto)[0m
+[0m2021.02.07 02:02:52 INFO  [INFO]    com.h2database:h2:jar:1.4.200:runtime -- module com.h2database [auto][0m
+[0m2021.02.07 02:02:52 INFO  [INFO] [0m
+[0m2021.02.07 02:02:52 INFO  [INFO] ------------------------------------------------------------------------[0m
+[0m2021.02.07 02:02:52 INFO  [INFO] BUILD SUCCESS[0m
+[0m2021.02.07 02:02:52 INFO  [INFO] ------------------------------------------------------------------------[0m
+[0m2021.02.07 02:02:52 INFO  [INFO] Total time: 5.792 s[0m
+[0m2021.02.07 02:02:52 INFO  [INFO] Finished at: 2021-02-07T02:02:52-03:00[0m
+[0m2021.02.07 02:02:52 INFO  [INFO] ------------------------------------------------------------------------[0m
+[0m2021.02.07 02:02:52 INFO  [INFO] Generated .bloop\springudemy-test.json[0m
+[0m2021.02.07 02:02:52 INFO  [INFO] ------------------------------------------------------------------------[0m
+[0m2021.02.07 02:02:52 INFO  [INFO] BUILD SUCCESS[0m
+[0m2021.02.07 02:02:52 INFO  [INFO] ------------------------------------------------------------------------[0m
+[0m2021.02.07 02:02:52 INFO  [INFO] Total time: 40.021 s[0m
+[0m2021.02.07 02:02:52 INFO  [INFO] Finished at: 2021-02-07T02:02:52-03:00[0m
+[0m2021.02.07 02:02:52 INFO  [INFO] ------------------------------------------------------------------------[0m
+[0m2021.02.07 02:02:52 INFO  mvn bloopInstall exit: 0[0m
+[0m2021.02.07 02:02:52 INFO  time: ran 'mvn bloopInstall' in 46s[0m
+[0m2021.02.07 02:02:52 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 27907'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.6-21-464e4ec4...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from 'd:\treinamento\springudemy\.bloop'...
+[0m[32m[D][0m Loading project from 'd:\treinamento\springudemy\.bloop\springudemy.json'
+[0m[32m[D][0m Loading project from 'd:\treinamento\springudemy\.bloop\springudemy-test.json'
+[0m[32m[D][0m Missing analysis file for project 'springudemy-test'
+[0m[32m[D][0m Missing analysis file for project 'springudemy'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:27907...
+The server is listening for incoming connections at tcp://127.0.0.1:27907...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.02.07 02:03:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\treinamento\springudemy\null\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.02.07 02:03:04 INFO  time: connected to build server in 11s[0m
+[0m2021.02.07 02:03:04 INFO  Connected to Build server v1.4.6-21-464e4ec4[0m
+[0m2021.02.07 02:03:04 INFO  time: imported build in 0.25s[0m
+[0m2021.02.07 02:03:09 INFO  time: indexed workspace in 4.31s[0m
