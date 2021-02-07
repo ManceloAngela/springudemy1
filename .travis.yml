@@ -6,9 +6,9 @@ install:
   - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 addons:
   sonarcloud:
-    organization: $SONAR_ORGANIZATION
+    organization: "manceloangela"
 token: 
-  secure: $SONAR_TOKEN
+  secure: "cf44e9b46b27f18d8e18027179168f3daa1570a9"
 script:
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
 cache:
