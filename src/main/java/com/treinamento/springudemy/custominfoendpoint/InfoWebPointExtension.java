@@ -16,7 +16,7 @@ public class InfoWebPointExtension {
   
   @Autowired
   private InfoEndpoint delegate;
-  
+   
   @ReadOperation
   public WebEndpointResponse<Map> info(){
     Map<String,Object> info = this.delegate.info();
