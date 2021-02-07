@@ -8,9 +8,9 @@ install:
   #- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
 addons:
   sonarcloud:
-    organization: "manceloangela"
+    organization: $SONAR_ORGANIZATION
     token:
-      secure: "cf44e9b46b27f18d8e18027179168f3daa1570a9"
+      secure: $SONAR_TOKEN
 # script:
 #   - sonar-scanner
 # cache:
