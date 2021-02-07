@@ -524,3 +524,7 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 [0m2021.02.07 02:03:04 INFO  Connected to Build server v1.4.6-21-464e4ec4[0m
 [0m2021.02.07 02:03:04 INFO  time: imported build in 0.25s[0m
 [0m2021.02.07 02:03:09 INFO  time: indexed workspace in 4.31s[0m
+[0m2021.02.07 02:04:37 INFO  shutting down Metals[0m
+[0m2021.02.07 02:04:37 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
