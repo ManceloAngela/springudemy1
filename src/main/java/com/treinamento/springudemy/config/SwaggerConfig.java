@@ -19,7 +19,7 @@ public class SwaggerConfig{
   
 
   private static final String CONTACT_EMAIL = "marcelo_eng@terra.com.br";
-  private static final String CONTACT_GITHUB = "";
+  private static final String CONTACT_GITHUB = "https://github.com/ManceloAngela/springudemy";
   private static final String CONTACT_NAME = "Marcelo Andrade";
   private static final String API_VERSION = "1.0.0";
   private static final String API_DESCRIPTION = "Itegrator Kenoby API Professinal";
