@@ -11,6 +11,7 @@ import io.swagger.annotations.ApiResponse;
 @RestController
 @RequestMapping("/api/v1/books")
 public class BookController {
+  
 
   @ApiOperation(value = "Return exemple hello world")
   @ApiResponses(value = {
@@ -18,7 +19,7 @@ public class BookController {
   })
   @GetMapping
   public String hello(){
-    return "Hello Bookstyore Manager.";
+    return "Hello Bookstyore Manager whith PR!";
   }
   
 }
