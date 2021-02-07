@@ -108,11 +108,6 @@
 				<sonar.exclusions>
 	src/main/java/**/SpringudemyApplication.java,
 	src/main/java/**/config/**,
-	src/main/java/**/exception/**,
-	src/main/java/**/dto/**,
-	src/main/java/**/entity/**,
-	src/main/java/**/repository/**,
-	src/test/java/** 
 </sonar.exclusions>
 
 			</properties>
