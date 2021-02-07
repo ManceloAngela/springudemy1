@@ -1,7 +1,9 @@
 language: java
 dist: xenial
 jdk: openjdk15
-install: true
+install:
+  - mvn -N io.takari:maven:wrapper
+  - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 addons:
   sonarcloud:
     organization: $SONAR_ORGANIZATION
@@ -12,5 +14,3 @@ cache:
   directories:
     - "$HOME/.m2"
     - "$home/.sonar/cache"
-# - mvn -N io.takari:maven:wrapper
-#   - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
