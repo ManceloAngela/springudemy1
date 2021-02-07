@@ -88,7 +88,8 @@
 			<plugin>
 				<groupId>pl.project13.maven</groupId>
 				<artifactId>git-commit-id-plugin</artifactId>
-				</plugin>
+				<version>4.0.0</version>
+			</plugin>
 		</plugins>
 	</build>
 </project>
