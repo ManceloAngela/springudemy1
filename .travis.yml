@@ -5,14 +5,13 @@ jdk:
 install:
   - mvn -N io.takari:maven:wrapper
   - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
 addons:
   sonarcloud:
     organization: "manceloangela"
 token: 
   secure: "cf44e9b46b27f18d8e18027179168f3daa1570a9"
-script:
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
-cache:
-  directories:
-    - $HOME/.m2
-    - $home/.sonar/cache
+# cache:
+#   directories:
+#     - $HOME/.m2
+#     - $home/.sonar/cache
